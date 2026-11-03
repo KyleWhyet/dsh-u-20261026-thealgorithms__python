@@ -12,5 +12,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-      - uses: astral-sh/setup-uv@0ca8f610542aa7f4acaf39e65cf4eb3c35091883 # v7
+      - uses: astral-sh/setup-uv@68ef1d76d3c8418861df3f7e7ecc9e9c9e4a99f3 # v7
       - run: uvx ruff check --output-format=github .
